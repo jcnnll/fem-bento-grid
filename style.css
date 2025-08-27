@@ -99,7 +99,6 @@
 
     @media (width > 660px) {
       margin: 40px auto;
-      margin-top: 40px;
       max-inline-size: 600px;
       grid-template-areas:
         "one one"
@@ -110,7 +109,7 @@
     }
 
     @media (width > 970px) {
-      margin: 80px auto;
+      margin: 60px auto;
       max-inline-size: 1122px;
       grid-template-areas:
         "seven one one four"
