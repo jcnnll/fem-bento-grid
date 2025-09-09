@@ -110,7 +110,7 @@
 
     @media (width > 970px) {
       margin: 60px auto;
-      max-inline-size: 1122px;
+      max-inline-size: 1200px;
       grid-template-areas:
         "seven one one four"
         "seven two three four"
@@ -257,7 +257,6 @@
     --bento-box-padding: 24px;
 
     --heading-font-size: var(--fs-lg);
-    --heading-font-weight: 400;
 
     h2 {
       margin-inline: 20px;
@@ -320,6 +319,8 @@
       --bento-box-horizontal-align: start;
       --bento-box-vertical-align: center;
       --bento-box-image-width: 100%;
+
+      --heading-font-size: var(--fs-xl);
     }
   }
 
@@ -338,6 +339,8 @@
       --bento-box-horizontal-align: start;
       --bento-box-vertical-align: center;
       --bento-box-image-width: 105%;
+
+      --heading-font-size: var(--fs-xl);
     }
   }
 }
